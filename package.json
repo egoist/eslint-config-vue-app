@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vue-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ESLint configuration used by vbuild",
   "repository": {
     "url": "egoist/eslint-config-vue-app",
@@ -23,7 +23,9 @@
   "xo": {
     "space": 2,
     "semicolon": false,
-    "ignores": ["example/**"]
+    "ignores": [
+      "example/**"
+    ]
   },
   "dependencies": {
     "eslint-config-xo": "^0.17.0",
