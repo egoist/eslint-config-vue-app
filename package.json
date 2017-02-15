@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-vue-app",
+  "version": "0.0.0",
+  "description": "ESLint configuration used by vbuild",
+  "repository": {
+    "url": "egoist/eslint-config-vue-app",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!' && npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^2.0.1"
+  }
+}
