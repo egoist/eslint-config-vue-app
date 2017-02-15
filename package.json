@@ -24,6 +24,10 @@
     "semicolon": false
   },
   "dependencies": {
+    "eslint-config-xo": "^0.17.0",
     "eslint-plugin-vue": "^2.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.15.0"
   }
 }
