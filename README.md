@@ -2,6 +2,15 @@
 
 [![NPM version](https://img.shields.io/npm/v/eslint-config-vue-app.svg?style=flat)](https://npmjs.com/package/eslint-config-vue-app) [![NPM downloads](https://img.shields.io/npm/dm/eslint-config-vue-app.svg?style=flat)](https://npmjs.com/package/eslint-config-vue-app) [![Build Status](https://img.shields.io/circleci/project/egoist/eslint-config-vue-app/master.svg?style=flat)](https://circleci.com/gh/egoist/eslint-config-vue-app) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+You will like this config if you use [XO](https://github.com/sindresorhus/xo).
+
+## Features
+
+- Indent with 2 spaces
+- Enforce ES2015+ coding style
+- [Basic JSX support](https://github.com/vuejs/eslint-plugin-vue)
+- Using `babel-eslint` to support [dynamic import](https://webpack.js.org/guides/code-splitting-import/), etc.
+
 ## Install
 
 ```bash
@@ -15,6 +24,8 @@ yarn add eslint-config-vue-app --dev
   "extends": "vue-app"
 }
 ```
+
+This is also the default ESLint config in [vbuild](https://github.com/egoist/vbuild).
 
 ## Contributing
 

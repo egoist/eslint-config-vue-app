@@ -1,5 +1,6 @@
 module.exports = {
-  extends: 'xo',
+  extends: 'xo/esnext',
+  parser: 'babel-eslint',
   plugins: ['vue'],
   env: {
     browser: true,
