@@ -510,6 +510,10 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
+eslint-config-rem@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/eslint-config-rem/-/eslint-config-rem-3.0.0.tgz#ab963a991f7f7fd266e5dc0906d7551ce33be559"
+
 eslint-config-xo@^0.17.0:
   version "0.17.0"
   resolved "https://registry.npmjs.org/eslint-config-xo/-/eslint-config-xo-0.17.0.tgz#1e7d4a86bf49179805c4622e832a7b1beeb4e881"

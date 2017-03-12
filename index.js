@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'xo/esnext',
+  extends: ['xo/esnext', 'rem'],
   parser: 'babel-eslint',
   plugins: ['vue'],
   env: {
@@ -10,10 +10,6 @@ module.exports = {
     node: true
   },
   rules: {
-    // indent with 2 space
-    indent: [2, 2, {SwitchCase: 1}],
-    // disable semi
-    semi: [2, 'never'],
     'no-new': 0,
     'no-new-object': 2,
     'no-new-require': 2,
