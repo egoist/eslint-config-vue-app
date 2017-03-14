@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['xo/esnext', 'rem'],
+  extends: [
+    require.resolve('eslint-config-xo/esnext'),
+    require.resolve('eslint-config-rem')
+  ],
   parser: 'babel-eslint',
   plugins: ['vue'],
   env: {
