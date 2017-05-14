@@ -9,12 +9,13 @@ module.exports = {
     node: true
   },
   rules: {
+    'capitalized-comments': 0,
     'no-new': 0,
     'no-new-object': 2,
     'no-new-require': 2,
     'no-new-symbol': 2,
     'no-new-wrappers': 2,
-    'no-unused-vars': [2, {vars: 'all', args: 'none'}],
+    'no-unused-vars': [2, { vars: 'all', args: 'none' }],
     // jsx rules
     'vue/jsx-uses-vars': 2
   }
