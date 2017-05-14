@@ -8,8 +8,7 @@
   },
   "main": "index.js",
   "files": [
-    "index.js",
-    "prettier.js"
+    "*.js"
   ],
   "scripts": {
     "test": "echo 'no tests!' && npm run lint",
