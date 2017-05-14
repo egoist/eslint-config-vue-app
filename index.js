@@ -1,7 +1,8 @@
-module.export = {
+const base = require('./base')
+
+module.export = Object.assign({}, base, {
   extends: [
-    require.resolve('./base'),
     require.resolve('eslint-config-xo/esnext'),
     require.resolve('eslint-config-rem')
   ]
-}
+})
